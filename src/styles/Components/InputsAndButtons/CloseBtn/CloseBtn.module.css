@@ -1,0 +1,54 @@
+.CloseBtn{
+    width: 60px;
+    height: 60px;
+    background-color: var(--Main-Color);
+    border-radius: var(--Radius);
+    position: relative;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.CloseBtnContainer{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70%;
+    position: relative;
+
+
+}
+
+.OneItem{
+    width: 100%;
+    height: 3px;
+    transform: rotate(-45deg);
+    border-radius: 12px;
+    background-color: white;
+    position: absolute;
+    transition: all 500ms ease-in-out;
+}
+
+.TwoItem{
+    width: 100%;
+    height: 3px;
+    transform: rotate(45deg);
+    border-radius: 12px;
+    background-color: white;
+    position: absolute;
+    transition: all 500ms ease-in-out;
+}
+
+.CloseBtn:hover .OneItem{
+    transform: rotate(45deg);
+}
+
+.CloseBtn:hover .TwoItem{
+    transform: rotate(-45deg);
+}
+

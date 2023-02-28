@@ -1,0 +1,408 @@
+.NavbarMain{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 5;
+    right: 0;
+    justify-content: center;
+}
+.NavbarMainContainer{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.LinkMainHover{
+    width: 220px;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    max-width: 700px;
+    width: 60%;
+
+}
+.navigationLinks{
+    display: flex;
+    max-width: 700px;
+    justify-content: space-between;
+}
+.navigationLinks{
+    color:var(--Text-Color);
+    font-size: 24px;
+    font-family: 'GothamMedium';
+}
+.navigationLinks li a{
+    font-size: 18px;
+}
+.navigationLinks li:hover{
+    color: var(--Second-Color);
+}
+.navigationLinks li span{
+    color: var(--Second-Color);
+}
+.navigationLinksExternos{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: flex-end;
+}
+
+.navigationLinksExternos li{
+    margin-left: 20px;
+}
+
+
+
+.ButtonGoLogin{
+    background-color: var(--Main-Color);
+    padding: 12px;
+    height: 40px;
+    margin-left: 15px;
+    border-radius: var(--Radius);
+    display: flex;
+    align-items: center;
+    color: white;
+    transition: background-color 0.5s ease-in-out;
+    font-family:'GothamBook';
+}
+.ButtonGoLogin:hover{
+    background-color: var(--Main-Hover-color);
+    
+}
+
+
+.socialItens{
+    display: flex;
+}
+.socialItens svg:hover{
+    opacity: 0.7;
+
+}
+.hambMenuhere{
+    margin-left: 20px;
+    background-color: var(--Second-Color);
+    border-radius: var(--Radius);
+    width: 60px;
+    height: 60px;
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.hambMenuhere:hover{
+    background-color:#46a18b;
+}
+.hambMenuhereContainer{
+    width: 65%;
+    height: 90%;
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.MenuItem{
+    width: 100%;
+    pointer-events: none;
+    height: 3px;
+    transition: all  0.5s;
+    border-radius: 12px;
+    background-color: white;
+}
+.MenuItem:nth-child(2){
+    width: 65%;
+
+}
+
+.hambMenuhere:hover .MenuItem:nth-child(2){
+    width: 100%;
+}
+.ModalNavbar{
+    background-color: white;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+}
+
+
+.HambMenu{
+    background-color: var(--Main-Color);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    margin-top: 60px;
+    right: 0;
+    margin-right: 5%;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+.HambMenu:hover{
+    background-color: var(--Main-Hover-color);
+}
+
+.scrollBarMain{
+    width: 100%;
+    background-color: white;
+    height: 100px;
+    position: fixed;
+    z-index: 10;
+    transition: all 500ms;
+    margin-top: -100px;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.scrollBarMainCotainer{
+    width: 90%;
+    display: flex;
+    height: 90px;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.CloseButtonMainMenu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 999;
+}
+.containerModal{
+    width: 90%;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+    height: 100%;
+    overflow-y: auto;
+    justify-content: flex-start;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: relative;
+}
+
+.containerModal::-webkit-scrollbar {
+    width: 0.2em;
+    background-color: transparent;
+  } 
+  
+.containerModal::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  
+.containerModal::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+.containerModal ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.containerModal ul li{
+    font-family: 'GothamBook';
+    font-size: 60px;
+    margin-top: 30px;
+    color: var(--Text-Color);
+}
+
+.containerModal ul li:hover{
+    color: var(--Second-Color);
+}
+
+.containerModal ul li span{
+    font-family: 'GothamBlack';
+    color: var(--Second-Color);
+}
+.containerModal ul li span:hover{
+    color: var(--Main-Color);
+}
+.ModalSocialMedia{
+    width: 250px;
+    display: flex;
+    margin-bottom: 120px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ModalSocialLinks{
+    display: flex;
+    align-items: center;
+    width: 240px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.ModalSocialLinks svg:hover{
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:0px) and (max-width:1024px) {
+    
+
+    .hambMenuhere{
+        display: flex;
+    }
+    .navigationLinks{
+        display: none;
+    }
+    .navigationLinksExternos{
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column-reverse;
+        margin-top: 0px;
+        justify-content: flex-end;
+    }
+    .socialItens{
+        margin-top: 20px;
+        display: flex;
+    }
+
+    .Lihere{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:550px) and (max-width:850px) {
+
+.Lihere{
+  flex-direction: column-reverse;
+  align-items: flex-end;  
+}
+
+.hambMenuhere{
+    margin-left: 20px;
+    background-color: var(--Second-Color);
+    border-radius: var(--Radius);
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+    display: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+
+
+@media screen and (min-width:280px) and (max-width:550px){
+    .Lihere{
+        flex-direction: column-reverse;
+        align-items: flex-end;  
+        justify-content: center;
+
+        display: flex;
+      }
+      .navigationLinksExternos{
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column-reverse;
+        margin-top: 0px;
+
+        justify-content: flex-end;
+    }
+      .hambMenuhere{
+          margin-left: 20px;
+          background-color: var(--Second-Color);
+          border-radius: var(--Radius);
+          width: 60px;
+          height: 60px;
+          margin-bottom: 0px;
+          display: none;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }   
+    .LinkMainHover{
+        width: 50vw;
+        max-width: 200px;
+        max-height: 119px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: relative;
+    }
+    .LinkMainHover svg{
+        max-width: 200px;
+        position: absolute;
+    }
+    
+    .LinkMainHover image{
+        width: 100%;
+    }
+    .MainLogo{
+    
+        width: 60vw;
+    }
+    .ButtonLoginHere{
+        display: none;
+    }
+
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        max-width: 800px;
+        width: unset;
+    
+    }
+    .MainLogoFixed{
+        width: 150px!important;
+    }
+}
+
+
+.fixedmenu{
+    display: flex!important;
+    margin-bottom: unset;
+}
+
+.MainLogoFixed{
+    width: 220px;
+}
+
+
+@media screen and (min-width:1350px){
+    .NavbarMain{
+        margin-top: 60px;
+    }
+}

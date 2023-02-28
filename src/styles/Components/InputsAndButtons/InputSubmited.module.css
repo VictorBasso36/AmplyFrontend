@@ -1,0 +1,26 @@
+.divInputSubmiteHere{
+    width: 100%;
+}
+
+.inputSubmited{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: var(--Main-Color);
+    font-family: 'GothamBlack';
+    font-size: 25px;
+    cursor: pointer;
+    transition: background 500ms;
+    
+}
+
+.inputSubmited:hover{
+    background-color: var(--Main-Hover-color);
+}

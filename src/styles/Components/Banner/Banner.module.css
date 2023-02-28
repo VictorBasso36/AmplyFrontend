@@ -1,0 +1,629 @@
+.MainBanner{
+    width: 100%;
+
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    justify-content: center;
+    background: rgb(218,219,221);
+    background: linear-gradient(180deg, rgba(218,219,221,1) 70%, rgba(255,255,255,1) 90%);
+}
+.MainBannerContainer{
+    width: 90%;
+    max-width: 1350px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.MainBannerContainer h1{
+    text-align: center;
+    font-family: 'GothamBook';
+    font-weight: lighter;
+    font-size: 40px;
+    color: var(--Text-Color);
+}
+.MainBannerContainer h1 strong{
+    font-family: 'GothamMedium';
+    font-size: 50px;
+}
+.MainBannerContainer h1  span{
+    font-family: 'GothamMedium';
+    font-weight: bolder;
+    font-size: 50px;
+
+
+
+}
+
+
+.MainH1hERE{
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.ButtonModalButton{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.ButtonModalSpan{
+    width: 100%;
+    border: 1.9px solid var(--Second-Color);
+    border-radius: 12px;
+    position: absolute;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -7px;
+    margin-right: -10px;
+    transition: all 0.2s ease-in-out;
+}
+.ButtonModalButton:hover .ButtonModalSpan{
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: -7px;
+    margin-left: -10px;
+}
+.ButtonModalButton{
+    border: 1.9px solid var(--Text-Color);
+    padding:12px;
+    background-color: transparent;
+        transition: all 0.5s ease-in-out;
+    width: 270px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 12px;
+    height: 40px;
+}
+
+.ButtonModalButton svg{
+    width: 25px;
+    margin-right: 10px;
+}
+
+
+.ButtonModalButton p{
+    font-family: 'GothamBook';
+    font-weight: 900;
+    color: var(--Text-Color);
+}
+
+.svgArrow{
+    animation-name: arrowBounce;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+    bottom: 0;
+    margin-bottom: -5%;
+    position: absolute;
+}
+
+
+@keyframes arrowBounce {
+    0%{
+        margin-bottom: -5%;
+    }
+    50%{
+        margin-bottom: -10%;
+    }
+    100%{
+        margin-bottom: -5%;
+    }
+} 
+
+
+
+.MainImg{
+    max-width: 1000px;
+    width: 47vw;
+    height: auto;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+}
+.MainImg img{
+    max-width: 1000px;
+    height: auto;
+}
+
+
+
+
+/* ==============modalDesconto================== */
+.MenuDesconto{
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    height: 100%;
+    display: flex;
+    top: 0;
+    z-index: 15;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.MenuDescontoContainer{
+    width: 90%;
+    flex-direction: column;
+    max-width: 1350px;
+    position: relative;
+    height: 100%;
+    overflow-y: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.MenuDescontoContainer::-webkit-scrollbar {
+    width: 0.2em;
+    background-color: transparent;
+  } 
+  
+.MMenuDescontoContainerodalContainer::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  
+.MenuDescontoContainer::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+.CloseMenuDesconto{
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+.svgConvert{
+    width: 90%;
+    max-width: 350px;
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+.MenuDescontoContainer H2{
+    color: var(--Text-Color);
+    font-family: 'GothamBook';
+    font-size: 50px;
+    width: 90%;
+    text-align: center;
+}
+
+.MenuDescontoContainer H2 span{
+    
+    font-family: 'GothamBlack';
+}
+
+.MenuDescontoContainer h3{
+    color: var(--Text-Color);
+    font-size: 30px;
+    font-family: 'GothamBook';
+}
+
+.MenuDescontoContainer p{
+    text-align: justify;
+    font-size: 25px;
+    max-width: 700px;
+    margin-bottom: 60px;
+    color: var(--Text-Color);
+    font-family: 'GothamBook';
+    
+}
+
+
+.MenuDescontoContainer form{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.MenuDescontoContainer form div{
+    flex-direction: column;
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.InputMain{
+    color: var(--Text-Color);
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: 12px;
+    height: 50px;
+    margin-top: 5px;
+    cursor: pointer;
+    padding: 5px 20px;
+    background-color: white;
+    font-size: 20px;
+    font-family: 'GothamBook';
+    font-weight: lighter;
+    box-sizing: border-box;
+    transition: all 500ms ease-in-out;
+}
+
+
+/* .InputMain:valid{
+    border: 1px solid var(--Second-Color);
+    color: var(--Text-Color);
+
+} */
+.InputMain:valid:not(:focus){
+    border: 1px solid var(--Main-Color);
+}
+.InputMain:invalid:not(:focus){
+    border: 1px solid var(--Main-Color);
+}
+.InputMain:valid:not{
+    border: 1px solid var(--Main-Color);
+}
+.InputMain[disabled]{
+    border: 1px solid var(--Main-Color);
+    text-align: center;
+}
+.InputMain:focus::placeholder{
+    opacity: 0.9;
+    transition: all 500ms;
+    font-size: 18px;
+
+}
+
+
+
+
+
+
+.InputMain:valid:not{
+    border: 1px solid var(--Main-Color);
+}
+.InputMain:focus{
+    border: 2px solid var(--Second-Color);
+    color: var(--Text-Color);
+    transition: all 1s ease-in-out;
+}
+
+
+.FormError{
+    background-color: var(--Second-Color);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    border-radius: 12px;
+}
+.FormError p{
+    margin: unset;
+    font-family: 'GothamBook';
+    color: white;
+
+
+}
+
+
+.ButtonSubmit{
+    width: 100%;
+    max-width: 350px;
+    height: 50px;
+    border-radius: 12px;
+    margin-bottom: 300px;
+    margin-top: 10px;
+    border: unset;
+    background-color: var(--Main-Color);
+    font-family: 'GothamBook';
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.ButtonSubmit:hover{
+    background-color: var(--Main-Hover-color);
+}
+
+
+
+.ContatoSucess{
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+    margin-top: 50px;
+}
+.ContatoSucess p{
+    text-align: center;
+}
+.ContatoSucess span{
+    color: var(--Second-Color);
+
+}
+.ContatoSucess strong{
+    color: var(--Main-Color);
+}
+.ContatoSucess a{
+    color: var(--Main-Color);
+
+}
+.ContatoSucess a:hover{
+    color: var(--Second-Color);
+}
+
+
+
+/* ==============fIMmodalDesconto================== */
+@media screen and (min-width:850px) and (max-width:1024px){
+    .MainBanner{
+        width: 100%;
+        min-height: 1100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 90vw;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        justify-content: flex-start;
+
+    
+    }   
+
+
+    .MainBannerContainer{
+        width: 90%;
+        max-width: 1350px;
+        text-align: center;
+        margin-top: 30vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .MainImg{
+        max-width: 1000px;
+        width: 70vw;
+        margin-top: 65vw;
+        position: absolute;
+        left: 0;
+    }
+    .svgArrow{
+        animation-name: arrowBounce;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        cursor: pointer;
+        bottom: 0;
+        margin-left: 20vw;
+      
+        margin-bottom: -30%;
+        position: absolute;
+    }
+    
+
+    .ButtonModalButton{
+        border: 1.9px solid var(--Text-Color);
+        padding:12px;
+        background-color: transparent;
+            transition: all 0.5s ease-in-out;
+        width: 270px;
+        cursor: pointer;
+        display: flex;
+        margin-left: 20vw;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        border-radius: 12px;
+        height: 40px;
+    }
+    @keyframes arrowBounce {
+        0%{
+            margin-bottom: -10%;
+        }
+        50%{
+            margin-bottom: -15%;
+        }
+        100%{
+            margin-bottom: -10%;
+        }
+    } 
+    
+    
+}
+@media screen and (min-width:550px) and (max-width:850px){
+    
+
+
+    .MainBanner{
+        width: 100%;
+        height: 200vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        background-repeat: no-repeat;
+        background-size: 100%;
+        justify-content: flex-start;
+        background: rgb(218,219,221);
+        background: linear-gradient(180deg, rgba(218,219,221,1) 83%, rgba(255,255,255,1) 95%);
+
+    }   
+
+
+
+    .MainBannerContainer{
+        width: 90%;
+        margin-top: 400px;
+        max-width: 1350px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    
+    .MainImg{
+        max-width: 1000px;
+        width: 80vw;
+        margin-top:120vw;
+        position: absolute;
+        left: 0;
+    }
+    .MainBannerContainer h1{
+        text-align: center;
+        font-family: 'GothamBook';
+        font-weight: lighter;
+        font-size: 40px;
+        color: var(--Text-Color);
+    }
+    .MainBannerContainer h1 strong{
+        font-family: 'GothamMedium';
+        font-size: 60px;
+    }
+    .MainBannerContainer h1  span{
+        font-family: 'GothamMedium';
+        font-weight: bolder;
+        font-size:70px;
+    
+    
+    
+    }
+    .ButtonModalButton{
+        border: 1.9px solid var(--Text-Color);
+        padding:12px;
+        background-color: transparent;
+            transition: all 0.5s ease-in-out;
+        width: 40vw;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        border-radius: 12px;
+        height: 40px;
+    }
+    .ButtonModalButton p {
+        font-size: 18px;
+    }
+
+
+    
+    .MainH1hERE{
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        justify-content: flex-start;
+        display: flex;
+    }
+
+}
+
+@media screen and (min-width:0px) and (max-width:550px){
+    
+
+
+    .MainBanner{
+        width: 100%;
+        height: 200vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        background-repeat: no-repeat;
+        background-size: 100%;
+        justify-content: flex-start;
+        background: rgb(218,219,221);
+        background: linear-gradient(180deg, rgba(218,219,221,1) 83%, rgba(255,255,255,1) 95%);
+
+    }   
+
+
+
+    .MainBannerContainer{
+        width: 90%;
+        margin-top: 65vw;
+        max-width: 1350px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    
+    .MainImg{
+        max-width: 1000px;
+        width: 80vw;
+        margin-top:130vw;
+        position: absolute;
+        left: 0;
+    }
+    .MainBannerContainer h1{
+        text-align: center;
+        font-family: 'GothamBook';
+        font-weight: lighter;
+        font-size: 8vw;
+        color: var(--Text-Color);
+    }
+    .MainBannerContainer h1 strong{
+        font-family: 'GothamMedium';
+        font-size: 10vw;
+    }
+    .MainBannerContainer h1  span{
+        font-family: 'GothamMedium';
+        font-weight: bolder;
+        font-size:12vw;
+    
+    
+    
+    }
+    .ButtonModalButton{
+        border: 1.9px solid var(--Text-Color);
+        padding:12px;
+        background-color: transparent;
+            transition: all 0.5s ease-in-out;
+        width: 260px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        border-radius: 12px;
+        height: 40px;
+    }
+    .ButtonModalButton p {
+        font-size: 18px;
+    }
+
+
+    
+    .MainH1hERE{
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        justify-content: flex-start;
+        display: flex;
+    }
+
+}
+
+
+
+
+

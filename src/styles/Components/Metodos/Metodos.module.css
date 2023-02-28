@@ -1,0 +1,511 @@
+.MainMetodos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.MainMetodosContainer{
+    width: 90%;
+    max-width: 1350px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.MethodTexts{
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.MethodImages{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.MethodImages img{
+    width: 80%;
+}
+.MethodTexts h3{
+    color: var(--Main-Color);
+    font-family: 'GothamBlack';
+    font-size: 70px;
+}
+.MethodText{
+    margin-top: 60px;
+}
+.MethodText h4{
+    color: var(--Text-Color);
+    font-family: 'GothamLight';
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.MethodText h4 span{
+    font-size: 20px;
+    color: var(--Second-Color);
+}
+
+.MethodText p{
+    font-family: 'GothamBook';
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--Text-Color);
+    font-family: 'GothamBook';
+}
+.MethodText p span{
+    font-size: 20px;
+    
+    font-family: 'GothamBlack';
+}
+
+
+.ButtonModalSpan{
+    width: 100%;
+    border: 1.9px solid var(--Second-Color);
+    border-radius: 12px;
+    position: absolute;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -7px;
+    margin-right: -10px;
+    transition: all 0.2s ease-in-out;
+}
+.ButtonModalButton:hover .ButtonModalSpan{
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: -7px;
+    margin-left: -10px;
+}
+.ButtonModalButton{
+    border: 1.9px solid var(--Text-Color);
+    padding:12px;
+    background-color: transparent;
+        transition: all 0.5s ease-in-out;
+    width: 70%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 12px;
+    height: 40px;
+}
+
+.ButtonModalButton p{
+    font-family: 'GothamBook';
+    font-weight: 900;
+    color: var(--Text-Color);
+}
+
+
+
+
+
+.Modal{
+    width: 100%;
+    position: fixed;
+    z-index: 30;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.ModalContainer{
+    width: 90%;
+    overflow-y: auto;
+    height: 100%;
+    max-width: 1350px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.ModalClose{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.ConteudoModal{
+    margin-top: 120px;
+    width: 100%;
+}
+.TextTecnic{
+    margin-bottom: 80px;
+}
+
+.TextTecnic h3{
+    font-family: 'GothamBook';
+    color: var(--Text-Color);
+    font-size: 40px;
+    margin-bottom: 30px;
+    line-height: 50%;
+}
+
+.TextTecnic h3 span{
+    font-size: 22px;
+    color: var(--Second-Color);
+}
+
+.ModalContainer::-webkit-scrollbar {
+    width: 0.2em;
+    background-color: transparent;
+  } 
+  
+.ModalContainer::-webkit-scrollbar-thumb {
+    background-color: var(--Main-Color);
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 130px, rgba(234,30,119,1) 130px);
+  }
+  
+.ModalContainer::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+
+.TextTecnic p{
+    text-align: justify;
+    font-family: 'GothamBook';
+    font-size: 20px;
+    margin-right: 10px;
+    color: var(--Text-Color);
+    
+}
+.TextTecnic p span{
+    font-family: 'GothamBlack';
+}
+@media  screen and (min-width:850px) and (max-width:1024px) {
+    .MainMetodosContainer{
+        width: 90%;
+        max-width: 1350px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+    
+    .MethodTexts{
+        width: 100%;
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .MethodImages{
+        width: 100%;
+        display: flex;
+        margin-top: 80px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .MethodImages img{
+        width: 80%;
+        max-width: 500px!important;
+    }
+    .MethodTexts h3{
+        color: var(--Main-Color);
+        font-family: 'GothamBlack';
+        font-size: 70px;
+    }
+    .MethodText{
+        margin-top: 60px;
+    }
+    .MethodText h4{
+        color: var(--Text-Color);
+        font-family: 'GothamLight';
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .MethodText h4 span{
+        font-size: 20px;
+        color: var(--Second-Color);
+    }
+    
+    .MethodText p{
+        font-size: 20px;
+        color: var(--Text-Color);
+        text-align: justify;
+        font-family: 'GothamBook';
+    }
+    .MethodText p span{
+        font-size: 20px;
+        
+        font-family: 'GothamBlack';
+    }
+    
+    
+    .ButtonModalSpan{
+        width: 100%;
+        border: 1.9px solid var(--Second-Color);
+        border-radius: 12px;
+        position: absolute;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: -7px;
+        margin-right: -10px;
+        transition: all 0.2s ease-in-out;
+    }
+    .ButtonModalButton:hover .ButtonModalSpan{
+        margin-bottom: 0px;
+        margin-right: 0px;
+        margin-top: -7px;
+        margin-left: -10px;
+    }
+    .ButtonModalButton{
+        max-width: 500px;
+        border: 1.9px solid var(--Text-Color);
+        padding:12px;
+        background-color: transparent;
+            transition: all 0.5s ease-in-out;
+        width: 70%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        border-radius: 12px;
+        height: 40px;
+    }
+    
+    .ButtonModalButton p{
+        font-family: 'GothamBook';
+        font-weight: 900;
+        color: var(--Text-Color);
+    }   
+}
+
+@media  screen and (min-width:550px) and (max-width:850px) {
+    .MainMetodosContainer{
+        width: 90%;
+        max-width: 1350px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+    
+    .MethodTexts{
+        width: 100%;
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .MethodImages{
+        width: 100%;
+        display: flex;
+        margin-top: 80px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .MethodImages img{
+        width: 80%;
+        max-width: 500px!important;
+    }
+    .MethodTexts h3{
+        color: var(--Main-Color);
+        font-family: 'GothamBlack';
+        font-size: 70px;
+    }
+    .MethodText{
+        margin-top: 60px;
+    }
+    .MethodText h4{
+        color: var(--Text-Color);
+        font-family: 'GothamLight';
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .MethodText h4 span{
+        font-size: 20px;
+        color: var(--Second-Color);
+    }
+    
+    .MethodText p{
+        font-size: 20px;
+        color: var(--Text-Color);
+        text-align: justify;
+        font-family: 'GothamBook';
+    }
+    .MethodText p span{
+        font-size: 20px;
+        
+        font-family: 'GothamBlack';
+    }
+    
+    
+    .ButtonModalSpan{
+        width: 100%;
+        border: 1.9px solid var(--Second-Color);
+        border-radius: 12px;
+        position: absolute;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: -7px;
+        margin-right: -10px;
+        transition: all 0.2s ease-in-out;
+    }
+    .ButtonModalButton:hover .ButtonModalSpan{
+        margin-bottom: 0px;
+        margin-right: 0px;
+        margin-top: -7px;
+        margin-left: -10px;
+    }
+    .ButtonModalButton{
+        max-width: 500px;
+        border: 1.9px solid var(--Text-Color);
+        padding:12px;
+        background-color: transparent;
+            transition: all 0.5s ease-in-out;
+        width: 70%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        border-radius: 12px;
+        height: 40px;
+    }
+    
+    .ButtonModalButton p{
+        font-family: 'GothamBook';
+        font-weight: 900;
+        color: var(--Text-Color);
+    }   
+}
+
+@media  screen and (min-width:280px) and (max-width:550px) {
+    .MainMetodosContainer{
+        width: 90%;
+        max-width: 1350px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+    
+    .MethodTexts{
+        width: 100%;
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .MethodImages{
+        width: 100%;
+        display: flex;
+        margin-top: 80px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .MethodImages img{
+        width: 100%;
+        max-width: 500px!important;
+    }
+    .MethodTexts h3{
+        color: var(--Main-Color);
+        font-family: 'GothamBlack';
+        font-size: 50px;
+    }
+    .MethodText{
+        margin-top: 60px;
+    }
+    .MethodText h4{
+        color: var(--Text-Color);
+        font-family: 'GothamLight';
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .MethodText h4 span{
+        font-size: 20px;
+        color: var(--Second-Color);
+    }
+    
+    .MethodText p{
+        font-size: 20px;
+        color: var(--Text-Color);
+        text-align: justify;
+        font-family: 'GothamBook';
+    }
+    .MethodText p span{
+        font-size: 20px;
+        
+        font-family: 'GothamBlack';
+    }
+    
+    
+    .ButtonModalSpan{
+        width: 100%;
+        border: 1.9px solid var(--Second-Color);
+        border-radius: 12px;
+        position: absolute;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: -7px;
+        margin-right: -10px;
+        transition: all 0.2s ease-in-out;
+    }
+    .ButtonModalButton:hover .ButtonModalSpan{
+        margin-bottom: 0px;
+        margin-right: 0px;
+        margin-top: -7px;
+        margin-left: -10px;
+    }
+    .ButtonModalButton{
+        max-width: 500px;
+        border: 1.9px solid var(--Text-Color);
+        padding:12px;
+        background-color: transparent;
+            transition: all 0.5s ease-in-out;
+        width: 90%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        border-radius: 12px;
+        height: 40px;
+    }
+    
+    .ButtonModalButton p{
+        font-family: 'GothamBook';
+        font-weight: 900;
+        color: var(--Text-Color);
+    }   
+}

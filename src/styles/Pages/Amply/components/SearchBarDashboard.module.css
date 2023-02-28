@@ -1,0 +1,218 @@
+
+.SearchBarDashboard{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ModalNavitionMobileAll{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    z-index: 1601;
+    display: flex;
+    justify-content: center;
+}
+
+.TitlePage{
+    font-weight:lighter;
+    font-size: 50px;
+    line-height: 100%;
+    margin-left: 10px;
+}
+.MainSearchBar{
+    margin-bottom: 15px;
+    width: 100%;
+    display: flex;
+    height: 100%;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.responsiveBarSearch{
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    align-items: center;
+    width: 100%;
+    z-index: 1600;
+    justify-content: space-between;
+
+}
+.photoUserResponsiveNavBar{
+    width: 60px;
+ 
+    display: flex;
+    overflow: hidden;
+    border-radius: 100%;
+    height: 60px;
+}
+
+
+.HambMenu{
+    width: 60px;
+   
+    height: 60px;
+    background-color: var(--Main-Color);
+    border-radius: 12px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-evenly;
+    transition: background 500ms;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.suportHambMenu{
+    width: 60%;
+    height: 80%;
+    display: flex;
+    align-items: flex-start;
+    transition: all 500ms;
+    position: relative;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.HambMenu:hover .HambMenuitem:nth-child(2){
+    width: 100%;
+}
+.HambMenuitem{
+    transition: all 1000ms;
+    width: 100%;
+    pointer-events: none;
+    height: 3px;
+    border-radius: 3px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+
+.HambMenuitem:nth-child(2){
+    width: 50%;
+    margin: unset;
+}
+
+
+.activeMenucss .suportHambMenu{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+ }
+.activeMenucss{
+    width: 65%!important;
+ }
+ .activeMenucss .HambMenuitem{
+    position: absolute;
+
+ }
+.activeMenucss .HambMenuitem:nth-child(1){
+    transform: rotate(45deg);
+ }
+
+.activeMenucss .HambMenuitem:nth-child(2){
+   opacity: 0;
+   transform: translateY(-300);
+}
+.activeMenucss .HambMenuitem:nth-child(3){
+    transform: rotate(-45deg);
+ }
+ 
+
+.HambMenu:hover{
+    background-color: var(--Main-Hover-color);
+}
+.searchhere{
+    width: 350px;
+    max-width: 350px;
+}
+
+.TitlePage{
+    font-family: 'GothamBook';
+}
+
+@media screen and (min-width:0px) and (max-width:550px){
+    .TitlePage {
+        font-weight: lighter;
+        font-size: 10vw!important;
+        margin-left: 0px;
+    }
+    .searchhere{
+        width: 100%;
+        max-width: unset;
+    }
+}
+@media screen and (min-width:0px) and (max-width:850px){
+    .searchhere{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        max-width: unset;
+    }
+    .responsiveBarSearch {
+   
+        width: 100%!important;
+   
+    }
+    .MainSearchBar {
+        width: 100%!important;
+    
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1200px){
+    .TitlePage {
+        font-weight: lighter;
+        font-size: 4vw;
+        line-height: 100%;
+        margin-left: 10px;
+    }   
+}
+
+@media screen and (max-width:1024px){
+    .TitlePage {
+        font-weight: lighter;
+        font-size: 50px;
+        margin-left: 0px;
+    }
+    .responsiveBarSearch {
+        display: flex;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        flex-direction: row-reverse;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .MainSearchBar {
+        width: 100%;
+        display: flex;
+        margin-top: 15px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+}
+@media screen and (min-width:1024px){
+    .ModalNavitionMobileAll{
+        display: none!important;    
+    }
+    .responsiveBarSearch {
+        display: none;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+
+    }
+    .SearchBarDashboard{
+        display: flex;
+    }
+}
+

@@ -1,0 +1,735 @@
+.PricingMain{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.PricingMainContainer{
+    width: 90%;
+    max-width: 1550px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.PrincingCard{
+    width: 100%;
+    max-width: 390px;
+    display: flex;
+    background-color: #e6e6e6;
+    margin: 60px 20px;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.PrincingCardContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.PrincingCardContainer h2{
+    color: var(--Main-Color);
+    font-family: 'GothamBlack';
+    font-size: 25px;
+}
+.MainPricingHere{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.Price h3{
+    color: var(--Text-Color);
+    font-family: 'GothamBook';
+    text-align: start;
+    font-size: 20px;
+    line-height: 100%;
+}
+.Price h3 span{
+    color: var(--Main-Color);
+    font-family: 'GothamBlack';
+    line-height: 100%;
+    margin-bottom: 60px;
+    vertical-align: top;
+
+    font-size: 40px;
+}
+.Price h3 strong{
+    line-height: 85%;
+    font-family: 'GothamBlack';
+    font-size: 70px;
+}
+
+
+
+
+
+.ParcelaHere{
+    border-top: 1px solid var(--Text-Color);
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.MainAnimationsCard1{
+    height: 180px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    overflow: hidden;
+   
+}
+.MainAnimationsCard2{
+    height: 180px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    overflow: hidden;
+   
+   
+}
+.MainAnimationsCard3{
+    height: 180px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    overflow: hidden;
+   
+}
+.MainAnimationsCard1 svg{
+    width: 150%!important;
+    height: 150%!important;
+    position: absolute;
+   
+}
+
+.MainAnimationsCard3 svg{
+    width: 80%!important;
+    height: 80%;
+    position: absolute;
+}
+.MainAnimationsCard2 svg{
+    width: 250%!important;
+    height: 250%!important;
+    position: absolute;
+}
+
+
+.ParcelaHere p{
+    color: var(--Text-Color);
+    font-family: 'GothamBook';
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 620;
+}
+.ButtonConvertLink{
+    width: 100%;
+}
+.ButtonConvert{
+    width: 100%;
+    border-radius: 12px;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color: var(--Main-Color);
+    transition: background-color 0.5s ease-in-out;
+}
+.ButtonConvert:hover{
+    background-color: var(--Second-Color);
+}
+
+.ButtonConvert h4{
+    color: white;
+    font-family: 'GothamBlack';
+    font-size: 25px;
+}
+
+
+
+
+.BeneficiosHere{
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.BeneficioHere{
+   display: flex; 
+   margin-bottom: 20px;
+   height: unset;
+}
+.TextBeneficios{
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 85%;
+}
+
+.TextBeneficios p{
+    width: 100%;
+    font-size: 17px;
+    font-family: 'GothamMedium';
+    color: var(--Text-Color);
+    text-align: left;
+
+}
+
+.BeneficiosCheckedOn{
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAOCAYAAAAi2ky3AAAAmklEQVQokaWTQQ7CMAwEp7yKd8AZiXtbnsA/QJRKPIIr/+KyKJAcqDbQpCv5Ym9GtiM3klioPfBcLYQcgBFYEzqqjF4fDe+pKiFdhFxTzpmKITWgNkLGac2Zc5GFlIB+QhLoIenoihPIYGpfoHs09sbQusW6SMmzgXX/xsnt6BIfbiVtSiBu2acICApdzv5Vd7Q3oAF2sy8OeAGc9ngtrNbdRAAAAABJRU5ErkJggg==');
+    background-color: var(--Second-Color);
+    border-radius: 8px;
+
+}
+
+
+
+
+/*  */
+
+.PrincingCardBlack{
+    width: 100%;
+    max-width: 390px;
+    display: flex;
+    background-color: #424242;
+    margin: 60px 20px;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.PrincingCardContainerBlack{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.PrincingCardContainerBlack h2{
+    color: var(--Main-Color);
+    font-family: 'GothamBlack';
+    font-size: 25px;
+}
+.PrincingCardContainerBlack h2 span{
+    font-family: 'GothamLight';
+    font-size: 20px;
+    
+}   
+.MainPricingHereBlack{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.PriceBlack h3{
+    color: white;
+    font-family: 'GothamBook';
+    text-align: start;
+    font-size: 20px;
+    line-height: 100%;
+}
+.PriceBlack h3 span{
+    color: var(--Main-Color);
+    font-family: 'GothamBlack';
+    line-height: 100%;
+    margin-bottom: 60px;
+    vertical-align: top;
+
+    font-size: 40px;
+}
+.PriceBlack h3 strong{
+    line-height: 85%;
+    font-family: 'GothamBlack';
+    font-size: 70px;
+}
+
+
+
+
+
+.ParcelaHereBlack{
+    border-top: 0px solid white;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.ParcelaHereBlack p{
+    color: white;
+    font-family: 'GothamBook';
+    margin-top: 10px;
+    font-size: 18px;
+}
+.ButtonConvertLinkBlack{
+    width: 100%;
+}
+.ButtonConvertBlack{
+    width: 100%;
+    border-radius: 12px;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color: var(--Main-Color);
+    transition: background-color 0.5s ease-in-out;
+}
+.ButtonConvertBlack:hover{
+    background-color: var(--Second-Color);
+}
+
+.ButtonConvertBlack h4{
+    color: white;
+    
+    font-size: 25px;
+    font-family: 'GothamBlack';
+}
+
+
+
+
+.BeneficiosHereBlack{
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.BeneficioHereBlack{
+   display: flex; 
+   margin-bottom: 20px;
+   height: unset;
+}
+.TextBeneficiosBlack{
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 85%;
+}
+
+.TextBeneficiosBlack p{
+    width: 100%;
+    font-size: 17px;
+    font-family: 'GothamMedium';
+    color: white;
+    text-align: left;
+
+}
+
+.BeneficiosCheckedOnBlack{
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAOCAYAAAAi2ky3AAAAmklEQVQokaWTQQ7CMAwEp7yKd8AZiXtbnsA/QJRKPIIr/+KyKJAcqDbQpCv5Ym9GtiM3klioPfBcLYQcgBFYEzqqjF4fDe+pKiFdhFxTzpmKITWgNkLGac2Zc5GFlIB+QhLoIenoihPIYGpfoHs09sbQusW6SMmzgXX/xsnt6BIfbiVtSiBu2acICApdzv5Vd7Q3oAF2sy8OeAGc9ngtrNbdRAAAAABJRU5ErkJggg==');
+    background-color: var(--Second-Color);
+    border-radius: 8px;
+
+}
+
+
+
+
+
+@media screen and (min-width:0px) and (max-width:550px){
+    .PricingMain{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .PricingMainContainer{
+        width: 90%;
+        max-width: 1550px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .PrincingCard{
+        width: 100%;
+        max-width: 390px;
+        display: flex;
+        background-color: #e6e6e6;
+        margin: 30px 0px;
+        border-radius: 12px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .PrincingCardContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .PrincingCardContainer h2{
+        text-align: center;
+        width: 100%;
+        color: var(--Main-Color);
+        font-family: 'GothamBlack';
+        font-size: 7vw;
+    }
+    .MainPricingHere{
+        height: 40vw;
+        display: flex;
+        margin-top: 4vw;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+    
+    }
+    
+    .Price h3{
+        color: var(--Text-Color);
+        font-family: 'GothamBook';
+        text-align: start;
+        font-size: 5vw;
+        line-height: 100%;
+    }
+    .Price h3 span{
+        color: var(--Main-Color);
+        font-family: 'GothamBlack';
+        line-height: 100%;
+        margin-bottom: 60px;
+        vertical-align: top;
+    
+        font-size: 9vw;
+    }
+    .Price h3 strong{
+        line-height: 85%;
+        font-family: 'GothamBlack';
+        font-size: 15vw;
+    }
+    
+    
+    
+    
+    
+    .ParcelaHere{
+        border-top: 1px solid var(--Text-Color);
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .ParcelaHere p{
+        color: var(--Text-Color);
+        font-family: 'GothamBook';
+        margin-top: 10px;
+        font-size: 6vw;
+        text-align: center;
+    }
+    .ButtonConvertLink{
+        width: 100%;
+    }
+    .ButtonConvert{
+        width: 100%;
+        border-radius: 12px;
+        display: flex;
+        margin-top: 40px;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        background-color: var(--Main-Color);
+        transition: background-color 0.5s ease-in-out;
+    }
+    .ButtonConvert:hover{
+        background-color: var(--Main-Hover-color);
+    }
+    
+    .ButtonConvert h4{
+        color: white;
+        font-family: 'GothamBlack';
+        font-size: 25px;
+    }
+    
+    
+    
+    
+    .BeneficiosHere{
+        display: flex;
+        margin-top: 40px;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .BeneficioHere{
+       display: flex; 
+       margin-bottom: 20px;
+       height: unset;
+    }
+    .TextBeneficios{
+        margin-left: 10px;
+        margin-top: 5px;
+        width: 85%;
+    }
+    
+    .TextBeneficios p{
+        width: 100%;
+        font-size: 5vw;
+        font-family: 'GothamMedium';
+        color: var(--Text-Color);
+        text-align: left;
+    
+    }
+    
+    .BeneficiosCheckedOn{
+        width: 30px;
+        height: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAOCAYAAAAi2ky3AAAAmklEQVQokaWTQQ7CMAwEp7yKd8AZiXtbnsA/QJRKPIIr/+KyKJAcqDbQpCv5Ym9GtiM3klioPfBcLYQcgBFYEzqqjF4fDe+pKiFdhFxTzpmKITWgNkLGac2Zc5GFlIB+QhLoIenoihPIYGpfoHs09sbQusW6SMmzgXX/xsnt6BIfbiVtSiBu2acICApdzv5Vd7Q3oAF2sy8OeAGc9ngtrNbdRAAAAABJRU5ErkJggg==');
+        background-color: var(--Second-Color);
+        border-radius: 8px;
+    
+    }
+    
+    
+    
+    
+    /*  */
+    
+    .PrincingCardBlack{
+        width: 100%;
+        max-width: 390px;
+        display: flex;
+        background-color: #424242;
+        margin: 30px 0px;
+        border-radius: 12px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .PrincingCardContainerBlack{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .PrincingCardContainerBlack h2{
+        color: var(--Main-Color);
+        font-family: 'GothamBlack';
+        font-size: 6vw;
+    }
+    .PrincingCardContainerBlack h2 span{
+        font-family: 'GothamLight';
+        font-size: 20px;
+        
+    }   
+    .MainPricingHereBlack{
+        height: 40vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 4vw;
+        justify-content: flex-start;
+        width: 100%;
+    
+    }
+    
+    .PriceBlack h3{
+        color: white;
+        font-family: 'GothamBook';
+        text-align: start;
+        font-size: 5vw;
+        line-height: 100%;
+    }
+    .PriceBlack h3 span{
+        color: var(--Main-Color);
+        font-family: 'GothamBlack';
+        line-height: 100%;
+        margin-bottom: 60px;
+        vertical-align: top;
+    
+        font-size:9vw;
+    }
+    .PriceBlack h3 strong{
+        line-height: 85%;
+        font-family: 'GothamBlack';
+        font-size: 15vw;
+    }
+    
+    
+    
+    
+    
+    .ParcelaHereBlack{
+        border-top: 0px solid white;
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .ParcelaHereBlack p{
+        color: white;
+        font-family: 'GothamBook';
+        margin-top: 10px;
+        font-size: 3vw;
+    }
+    .ButtonConvertLinkBlack{
+        width: 100%;
+    }
+    .ButtonConvertBlack{
+        width: 100%;
+        border-radius: 12px;
+        display: flex;
+        margin-top: 40px;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        background-color: var(--Main-Color);
+        transition: background-color 0.5s ease-in-out;
+    }
+    .ButtonConvertBlack:hover{
+        background-color: var(--Main-Hover-color);
+    }
+    
+    .ButtonConvertBlack h4{
+        color: white;
+        font-size: 25px;
+    }
+    
+    
+   
+    
+    .BeneficiosHereBlack{
+        display: flex;
+        margin-top: 40px;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .BeneficioHereBlack{
+       display: flex; 
+       margin-bottom: 20px;
+       height: unset;
+    }
+    .TextBeneficiosBlack{
+        margin-left: 10px;
+        margin-top: 5px;
+        width: 85%;
+    }
+    
+    .TextBeneficiosBlack p{
+        width: 100%;
+        font-size: 5vw;
+        font-family: 'GothamMedium';
+        color: white;
+        text-align: left;
+    
+    }
+    
+    .BeneficiosCheckedOnBlack{
+        width: 30px;
+        height: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAOCAYAAAAi2ky3AAAAmklEQVQokaWTQQ7CMAwEp7yKd8AZiXtbnsA/QJRKPIIr/+KyKJAcqDbQpCv5Ym9GtiM3klioPfBcLYQcgBFYEzqqjF4fDe+pKiFdhFxTzpmKITWgNkLGac2Zc5GFlIB+QhLoIenoihPIYGpfoHs09sbQusW6SMmzgXX/xsnt6BIfbiVtSiBu2acICApdzv5Vd7Q3oAF2sy8OeAGc9ngtrNbdRAAAAABJRU5ErkJggg==');
+        background-color: var(--Second-Color);
+        border-radius: 8px;
+    
+    }
+
+
+
+
+
+    .MainAnimationsCard1{
+        height: 150px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        overflow: hidden;
+       
+    }
+    .MainAnimationsCard2{
+        height: 150px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        overflow: hidden;
+       
+       
+    }
+    .MainAnimationsCard3{
+        height: 150px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        overflow: hidden;
+       
+    }
+    .MainAnimationsCard1 svg{
+        width: 150%!important;
+        height: 150%!important;
+        position: absolute;
+       
+    }
+    
+    .MainAnimationsCard3 svg{
+        width: 80%!important;
+        height: 80%;
+        position: absolute;
+    }
+    .MainAnimationsCard2 svg{
+        width: 250%!important;
+        height: 250%!important;
+        position: absolute;
+    }
+    
+}

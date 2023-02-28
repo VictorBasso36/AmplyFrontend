@@ -1,0 +1,92 @@
+.MainFooter{
+    width: 100%;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.MainFooter svg{
+    margin-top: 60px;
+    width: 90%;
+    min-width: 270px;
+    max-width: 320px;
+    margin-bottom: 60px;
+
+}
+.ConvertFooter{
+    background-color: #424242;
+    width: 100%;
+    display: flex;
+    background-image: url('../../../../public/bgconvert.webp');
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-attachment: fixed;
+    height: 245px;
+    color: white;
+}
+
+.ConvertFooter h3{
+    color: white;
+    width: 90%;
+    font-weight: lighter;
+    font-size: 35px;
+    font-family: 'GothamLight';
+}
+.ConvertFooter h3 span{
+    color: white;
+    font-size: 40px;
+    font-family: 'GothamMedium';
+}
+
+
+@media screen and (min-width:1350px){
+    .ConvertFooter h3{
+        color: white;
+        width: 90%;
+        font-weight: lighter;
+        font-size: 30px;
+        font-family: 'GothamLight';
+    } 
+}
+@media screen and (min-width:0px) and (max-width:550px){
+    .MainFooter{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .MainFooter svg{
+        margin-top: 60px;
+        margin-bottom: 60px;
+    
+    }
+    .ConvertFooter{
+        background-color: #424242;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: unset;
+        padding: 60px 0px;
+        color: white;
+    }
+    
+    .ConvertFooter h3{
+        color: white;
+        font-weight: lighter;
+        font-size: 20px;
+    
+        font-family: 'GothamLight';
+    }
+    .ConvertFooter h3 span{
+        color: white;
+        font-size: unset;
+        font-family: 'GothamMedium';
+    }
+
+
+}

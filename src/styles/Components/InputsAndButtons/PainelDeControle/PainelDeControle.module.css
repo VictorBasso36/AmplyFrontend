@@ -1,0 +1,20 @@
+.ButtonGoLogin{
+    background-color: var(--Main-Color);
+    padding: 12px;
+    height: 40px;
+    margin-left: 0px;
+    border-radius: var(--Radius);
+    display: flex;
+    align-items: center;
+    color: white;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    transition: all 0.5s ease-in-out;
+    font-family:'GothamBook';
+}
+
+.ButtonGoLogin:hover{
+    background-color: var(--Main-Hover-color);
+    border-bottom: 2px solid var(--Second-Color);
+    border-right: 2px solid var(--Second-Color);
+}
