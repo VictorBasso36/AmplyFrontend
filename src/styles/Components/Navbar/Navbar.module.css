@@ -187,6 +187,7 @@
 .CloseButtonMainMenu{
     position: absolute;
     top: 0;
+    margin-top: 15px;
     right: 0;
     z-index: 999;
 }
@@ -228,7 +229,7 @@
 }
 
 .containerModal ul li{
-    font-family: 'GothamBook';
+    font-family: 'GothamBlack';
     font-size: 60px;
     margin-top: 30px;
     color: var(--Text-Color);
@@ -387,6 +388,12 @@
     }
     .MainLogoFixed{
         width: 150px!important;
+    }
+    .containerModal ul li{
+        font-family: 'GothamBlack';
+        font-size: 40px;
+        margin-top: 30px;
+        color: var(--Text-Color);
     }
 }
 
